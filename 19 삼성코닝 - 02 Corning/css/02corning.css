@@ -1,0 +1,194 @@
+@charset "utf-8";
+*{margin:0; padding:0; list-style:none;}
+
+/*a 링크 스타일*/
+a{text-decoration:none;}
+a:link,a:visited,a:hover,a:active{color:#333;}
+
+#main_header, #content, #main_footer{
+	width:1200px;
+	margin:0 auto;
+}
+
+#gnb_wrap{
+	height:60px;
+	margin-top:15px;
+}
+
+
+.gnb>li{
+	float:left;
+	height:60px;
+}
+
+.gnb>li>a{
+	display:block;
+	padding:0 20px;
+	line-height:40px;
+	font-weight:bold;
+	color:#222;
+}
+
+.gnb>li:first-child>a{	margin-top:5px;}
+.gnb>li:nth-child(2){margin-left:400px;}
+
+#visual{
+	position:relative;
+	height:496px;
+}
+
+
+#before{
+	width:31px;
+	height:52px;
+	display:block;
+	position:absolute;
+	height:100%;
+	background:url('../images/icon_ar_l.png') no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top:-280px;
+	margin-left:10px;
+	cursor:pointer;
+}
+
+
+#next{
+	width:31px;
+	height:52px;
+	display:block;
+	position:absolute;
+	height:100%;
+	background:url('../images/icon_ar_r.png') no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin-top:-280px;
+	margin-left:1880px;
+	cursor:pointer;
+}
+
+#visual>h2{
+	display:none;
+	visibility:hidden;
+	width:0; height:0;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+
+
+#content>h2{
+	display:none;
+	visibility:hidden;
+	width:0; height:0;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+.contents{
+	border-bottom:1px solid #ddd;
+}
+#content{
+	width:1200px;
+	height:200px;
+	border-bottom:1px solid #ddd;
+}
+#main_menu{
+	width:1200px;
+	display:flex;
+	flex-wrap: row wrap;
+	justify-content: space-between;
+}
+
+.menu1,.menu2,.menu3{
+	width:400px;
+	margin-top:50px;
+	
+}
+
+.menu1>dl dt,.menu2>dl dt,.menu3>dl dt{
+	color:rgb(0, 85, 189);
+}
+.menu1>dl dd,.menu2>dl dd,.menu3>dl dd{
+	color:#777;
+}
+#img1,#img2,#img3{
+	width:80px;
+	height:80px;
+}
+
+#img1>a{
+	display:block;
+	height:100%;
+	background:url('../images/link-thum01.png') no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#img2>a{
+	display:block;
+	height:100%;
+	background:url('../images/link-thum02.png') no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#img3>a{
+	display:block;
+	height:100%;
+	background:url('../images/link-thum03.png') no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}
+
+#img1,#img2,#img3{
+	float:left;
+	margin-top:-10px;
+	padding-right:20px;
+}
+
+dt{
+	font-weight:bold;
+}
+/*푸터*/
+.footer>li{
+	float:left;
+}
+.footer>li>a{
+	border-right:1px solid #222;
+	padding:0 10px;
+}
+.footer>li:last-child>a{
+	border-right:0;
+}
+.footer>li:first-child>a{
+	padding-left:0;
+}
+.footer>li>a,address{
+	font-size:13px;
+	color:#777
+}
+.footer::after{
+	content:'';
+	width:0; height:0;
+	display:block;
+	clear:both;
+	visibility:hidden;
+}
+#main_footer{
+	position: relative;
+	width:800px;
+	margin:0 auto;
+	top:50px;
+}
+.footer{
+	position: absolute;
+	left:250px;
+	top:0px;
+}
+address{
+	position: absolute;
+	left:250px;
+}
+
+
+
+
