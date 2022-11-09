@@ -65,11 +65,15 @@ h6 {
 
 p {
     color: #606060;
-    font-size: 18px;
-    line-height: 2;
+    font-size: 16px;
+    line-height: 3;
     font-weight: 400;
 }
-
+.about_me{
+    float:left;
+    width:100px;
+    font-weight:bold;
+}
 .section-padding-120 {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -325,26 +329,25 @@ li {
 }
 
 .logo_area > a {
-    width: 210px;
+    width: 100px;
     height: 100px;
-    background-color: #ff6c00;
+    background-color: #fff;
+    border-bottom:2px solid #ebebeb;
     position: relative;
     z-index: 2;
-    font-size:30px;
     color:#000;
-    font-weight:bold;
-    padding-right:30px;
 }
 
 .logo_area > a:before {
     width: 9000px;
     height: 100px;
-    background-color: #ff6c00;
+    background-color: #fff;
+    border-bottom:2px solid #ebebeb;
     position: absolute;
     z-index: 1;
     content: '';
     top: 0;
-    right: 210px;
+    right: 100px;
 }
 
 .menu-open-close {
@@ -546,7 +549,7 @@ li {
 }
 
 .hero-content-area .hero-text {
-    width: 620px;
+    width: 540px;
 }
 
 /* About Us Area */
@@ -570,6 +573,7 @@ li {
 }
 
 .fplus-single-feature {
+    width:570px;
     padding: 30px 30px 25px;
     background-color: #fff;
     margin-top: 70px;
@@ -664,11 +668,11 @@ li {
     justify-content: center;
 }
 .gallery-hover-overlay .port-more-view>a{
-    border:2px solid #ff6c00;
-    font-size: 22px;
-    color: #ff6c00;
+    background: #606060;
+    font-size: 23px;
+    color: #fff;
     text-align:center;
-    padding: 0 10px;
+    padding: 15px 25px;
     margin: 0 5px;
     display: block;
     opacity: 1;
@@ -688,7 +692,7 @@ li {
 
 .gallery-hover-overlay .port-hover-text > h3 {
     text-align:center;
-    color: #ff6c00;
+    color: #000;
     margin-bottom: 0;
 }
 
@@ -716,46 +720,16 @@ li {
     margin-bottom: 0;
 }
 
-.fplus-method-video {
-    width: 100%;
-    height: 500px;
-    background-color: #5b5454;
-    position: relative;
-    z-index: 1;
-    border-radius: 3px;
-    margin-top: 80px;
-    background-size: cover;
-    background-position: center center;
+.skill{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom:160px;
+    background-color:#f9f9f9;
 }
-
-.fplus-method-video:after {
-    background-color: rgba(255, 108, 0, 0.9);
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    content: '';
-    border-radius: 3px;
-    z-index: -1;
-}
-
-.video-play-btn {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height: 500px;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-}
-
-.video-play-btn > a {
-    color: #fff;
-    font-size: 70px;
+.skill_1>li{
+    text-align:center;
+    line-height:3;
 }
 
 /* Clients Area CSS */
@@ -845,7 +819,7 @@ li {
 .fplus-contact-area {
     position: relative;
     z-index: 1;
-    min-height: 237.5px;
+    min-height: 600.5px;
 }
 
 .contact_from {
