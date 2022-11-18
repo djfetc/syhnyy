@@ -62,7 +62,11 @@ h6 {
     color: #000000;
     line-height: 1.3;
 }
-
+.about-us-text{
+    display: inline-block;
+    width:100%;
+    text-align:center;
+}
 p {
     color: #606060;
     font-size: 16px;
@@ -71,7 +75,6 @@ p {
 }
 .about_me{
     float:left;
-    width:100px;
     font-weight:bold;
 }
 .section-padding-120 {
@@ -512,7 +515,7 @@ li {
 
 .fplus-hero-area {
     width: 100%;
-    height: 770px;
+    height: 900px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -559,27 +562,35 @@ li {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
     border-radius: 2px;
 }
-.about-us-thumb{
+.about-us-thumb02{
     text-align:center;
+    margin:50px 0;
 }
-.fplus-about-us-area .about-us-thumb > img {
-    border-radius: 2px 0 0 2px;
-    padding:50px 0;
-}
+
 
 .fplus-about-us-area .about-us-text {
     padding: 15px 60px;
 }
 .about-us-thumb>p{
-    background:#f9f9f9;
+    width:100%;
+    background:#f1f1f1;
     text-align:left;
     margin:0;
-    padding:30px 0 30px 50px;
+    padding:30px;
     font-size:1.5rem;
 }
-.about-us-thumb>p>img{
-    margin:0 30px 30px 0;
+.about-us-thumb{
+    display:flex;
+    flex-flow: row;
+    background:#f1f1f1;
 }
+.about-us-thumb img{
+    background:#f1f1f1;
+    width:40px;
+    height:40px;
+    margin:30px 0 0 30px;
+}
+
 .fplus-about-us-area .about-us-text p {
     margin-bottom: 0;
 }
@@ -620,7 +631,7 @@ li {
 }
 
 .fplus-projects-menu button.btn {
-    font-size: 12px;
+    font-size: 17px;
     font-weight: 600;
     background-color: transparent;
     color: #959595;
@@ -684,7 +695,7 @@ li {
     font-size: 23px;
     color: #fff;
     text-align:center;
-    padding: 15px 25px;
+    padding: 12px 22px;
     margin: 0 5px;
     display: block;
     opacity: 1;
@@ -731,13 +742,15 @@ li {
 .fplus-method-text p {
     margin-bottom: 0;
 }
-
+.skillheading{
+    padding-top:120px;
+}
 .skill{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom:160px;
-    background-color:#f9f9f9;
+    padding-bottom:120px;
+    background-color:#fff;
 }
 .skill_1>li{
     text-align:center;
@@ -796,13 +809,20 @@ li {
 .fplus-blog-content {
     padding: 30px;
 }
+.container{
+    padding:0 !important;
+}
 
 .fplus-blog-content h5 {
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 25px;
 }
-
+.blog{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .post-author-img {
     width: 40px;
     height: 40px;
@@ -810,7 +830,7 @@ li {
 }
 
 .post-author-name-date h6 {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 10px;
 }

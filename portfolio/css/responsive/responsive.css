@@ -35,7 +35,7 @@
         font-size: 22px !important;
     }
     .gallery-hover-overlay{
-        padding: 35% 0 30px !important;
+        padding: 32% 0 27px !important;
     }
 }
 
@@ -68,9 +68,6 @@
     }
     .single-clients-logo {
         height: 100px;
-    }
-    .fplus-blog-area .col-12:last-of-type .fplus-single-blog-area {
-        margin-top: 30px;
     }
     .footer-social-widget > a {
         margin-right: 15px;
@@ -172,7 +169,7 @@
         letter-spacing: 1px;
     }
     .gallery-hover-overlay {
-        padding: 20px;
+        padding: 17px;
     }
     .fplus-method-video,
     .video-play-btn {
@@ -245,6 +242,9 @@
     }
     .gallery-hover-overlay{
         padding: 35% 0 30px !important;
+    }
+    .about_me{
+        padding-left:90px;
     }
 }
 
