@@ -197,7 +197,7 @@ ol {
     font-size: 15px;
     right: 0;
     width: 40px;
-    background-color: #ff6c00;
+    background-color: #959595;
     color: #fff;
     text-align: center;
     height: 40px;
@@ -283,7 +283,7 @@ li {
     -webkit-animation: 2000ms linear 0s normal none infinite running fplus-load;
     animation: 2000ms linear 0s normal none infinite running fplus-load;
     background: transparent none repeat scroll 0 0;
-    border-color: #dddddd #dddddd #ff6c00;
+    border-color: #dddddd #dddddd #000;
     border-radius: 50%;
     border-style: solid;
     border-width: 4px;
@@ -431,7 +431,7 @@ li {
 }
 
 .fplus-menu-area .nav-item .dropdown-toggle {
-    color: #ff6c00;
+    color: #959595;
 }
 
 .fplus-menu-area .dropdown-item {
@@ -542,7 +542,7 @@ li {
 .load-more-btn {
     font-size: 20px;
     text-transform: uppercase;
-    color: #ff6c00;
+    color: #4c4c4c;
     letter-spacing: 4px;
 }
 
