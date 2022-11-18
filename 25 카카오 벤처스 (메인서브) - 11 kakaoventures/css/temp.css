@@ -1,8 +1,0 @@
-@charset "utf-8";
-@import "layout.css";
-header{background:#fff;}
-.wrap{width:100%;}
-#gnb a {color:#333;}
-header h2 a{
-    background-image:url('../images/glass2.png');
-}
