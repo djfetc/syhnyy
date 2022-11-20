@@ -184,6 +184,9 @@
     .gallery-hover-overlay .port-hover-text > h3 {
         font-size:20px;
     }
+    .gallery-hover-overlay{
+        padding: 35% 0 30px !important;
+    }
     .contact_from {
         padding: 30px;
         top: 0;
