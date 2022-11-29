@@ -566,26 +566,27 @@ li {
     text-align:center;
     margin:50px 0;
 }
-
-
+.gutters{
+    margin-bottom:35px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 2px;
+}
 .fplus-about-us-area .about-us-text {
     padding: 15px 60px;
 }
 .about-us-thumb>p{
     width:100%;
-    background:#f1f1f1;
     text-align:left;
     margin:0;
     padding:30px;
-    font-size:1.5rem;
+    font-size:1.3rem;
 }
 .about-us-thumb{
     display:flex;
     flex-flow: row;
-    background:#f1f1f1;
 }
 .about-us-thumb img{
-    background:#f1f1f1;
     width:40px;
     height:40px;
     margin:30px 0 0 30px;
