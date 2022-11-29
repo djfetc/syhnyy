@@ -73,11 +73,13 @@ section>div:nth-child(3)>h5{
     margin:70px 0;
     color:#e4a15a;
     font-size:1.5rem;
+    font-weight:400;
 }
 section>div:nth-child(4)>h5{
     margin:70px 0;
     color:#e4a15a;
     font-size:1.5rem;
+    font-weight:400;
 }
 section>*{
     text-align:center;
@@ -128,4 +130,70 @@ section>div:nth-child(5)>ul:last-child>li{
     color:#fff;
     padding:15px;
 }
+/*푸터영역*/
 
+footer>div:first-child{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:30px 0;
+    border-bottom:3px solid #8f8681;
+    box-sizing: border-box;
+}
+.ft_01{
+    line-height: 2.5;
+}
+.ft_01>li>a{
+    color:#948371;
+    font-weight:550;
+}
+.ft_01>li:first-child>a{
+    font-size:1.3rem;
+    color:#fea500;
+    font-weight:400;
+}
+footer>div:first-child>.ft_01:nth-child(5)>li:nth-child(5){
+    font-size:1.3rem;
+}
+footer>div:nth-child(2){
+    padding:30px 0;
+}
+.ft_02>li{
+    float:left;
+    border-right:2px solid #857276;
+    padding:0 20px;
+}
+.ft_02>li:first-child{
+    padding-left:0;
+}
+.ft_02>li:last-child{
+    border-right:0;
+}
+.ft_03{
+    float:right;
+}
+.ft_03>li{
+    float:left;
+}
+.ft_03>li:nth-child(2){
+    margin:0 20px;
+}
+.ft_03>li:nth-child(3){
+    margin-right:20px;
+}
+.ft_04{
+    margin-top:30px;
+    line-height:2;
+}
+.ft_04>li{
+    color:#948371;
+    font-weight:550;
+}
+.ft_02>li>a,
+.ft_03>li>a{
+    color:#948371;
+    font-weight:550;
+}
+footer>div:last-child>.ft_02>li:nth-child(2)>a{
+    color:#fea500;
+}
