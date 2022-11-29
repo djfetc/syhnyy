@@ -234,8 +234,14 @@
         padding: 30px 0;
         margin: 50px 0;
     }
-    .skill_1{
-        margin:55px 0 0 0;
+    .skill_1:nth-child(1),
+    .skill_1:nth-child(3),
+    .skill_1:nth-child(5){
+        margin:55px 0 0 20px;
+    }
+    .skill_1:nth-child(2),
+    .skill_1:nth-child(4){
+        margin:55px 20px 0 0;
     }
     .section-heading{
         margin:0;
