@@ -624,7 +624,9 @@ li {
 }
 
 /* Projects Area CSS */
-
+.pro{
+    margin:50px 0 0 0;
+}
 .fplus-projects-menu {
     padding: 35px 15px;
     background-color: #fff;
@@ -635,7 +637,7 @@ li {
     font-size: 17px;
     font-weight: 600;
     background-color: transparent;
-    color: #959595;
+    color: #f9f9f9;
     text-transform: uppercase;
     border: none;
     padding: 0 20px;
